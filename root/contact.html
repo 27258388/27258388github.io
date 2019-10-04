@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<link href="css/assess.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+	
+	<h2 class="heading title"> Where to Reach me </h2>
+	
+		 <nav>
+        <a class="other one" href="about.html">About</a>
+            <a class="other two" href="showcase.html">Showcase</a>
+            <a class="other three" href="contact.html">Contact</a>
+        </nav>
+	
+	<form action="#" class="formstyle">
+		<ul>
+		<li>
+			<br>
+			<label for="name">Name (*Required Field)</label>
+			<input type="text" name="Name" maxlength="100" required="true">
+			
+			<span>Enter your full name here </span>
+		</li>
+		
+		<li>
+			<label for="email">Email (*Required Field)</label>
+			<input type="email" name="email" maxlength="100" required="true">
+			<span> Enter your email address </span>
+				   	
+		</li>	
+		
+		<li>
+			<label for="phoneNumber">Phone Number</label>
+			<input type="number" name="phoneNumber" maxlength="100">
+			<span> Enter your phone number</span>
+		</li>	
+		<li>
+			<label for="about">About (*Required Field)</label>	
+			<textarea name="about" onkeyup="adjust_textarea(this)" required="true"> </textarea>
+			<span>Please leave your request and prefered contact method</span>
+		</li>	
+			
+			
+			<li>
+			<input type="submit"  value="Submit"/>
+			</li>
+		</ul>
+		
+			<div class="formstyle top">
+		<p class="smallText"> Or alternatively phone this number for a imediate response on your query:</p>
+				<br>
+		<p class="smallText C">07526733248</p>
+		
+		
+		</div>
+	
+		
+		
+		
+		</form>
+
+	
+	
+	
+	</div>
+	
+<script>
+	
+	function adjust_textarea(h){
+		h.style.height="20px";
+		h.style.height=(h.scrollHeight)+"px";
+	}
+
+
+	</script>
+	
+
+
+</body>
+</html>
