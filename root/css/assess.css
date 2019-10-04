@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0; 
+   
+}
+
+
+
+
+#wrapper{
+	width:100%;
+	height:auto;
+	margin:auto;
+	overflow:auto;
+background-color:#90ced5; 
+    background-image:url(background.png);  
+}
+.back{
+    width: 100%;
+    height: auto;
+    object-fit: contain;    
+}
+header{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	overflow: auto;
+	
+	
+}
+.heading{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier New";
+	color: #fff;
+}
+.title{
+	width: 100%;
+	height: auto;
+	margin:25px 0px;
+	overflow: auto;
+	 	 	
+	
+	
+}
+nav{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 5%x;
+	overflow: auto;
+    text-align: center;
+}
+
+.other{
+    margin-bottom: 10px;
+    font-size: 25px;
+    }
+
+.one{
+    margin-right: 10px;
+}
+.three{
+    margin-left: 10px;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	float: left;
+	overflow: auto;
+	display: block;
+	
+	
+}
+.nogo{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	float: left;
+	overflow: auto;
+	display: block;
+	
+	
+}
+.logoL{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	overflow: auto;
+	display: block;
+	text-align: center;
+    object-fit: contain;
+    top: 900px;
+}
+
+
+.splash{
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 50px;
+    z-index: 1;
+}
+
+a{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	overflow: auto;
+	text-decoration: none;
+	color: rgba(256, 256, 256, .8);
+}
+a:hover{
+	text-decoration: underline;
+}
+a.start:after{
+	content: ">";
+	position: absolute;
+	opacity: 0;
+	right: 205px;
+	left:30px;
+	transition: 0.5s;
+	color: #B5B5B5;
+	
+    
+}
+a:hover:after{
+	opacity: 1;
+	
+	
+}
+#home{
+	width: 100%;
+	height: auto;
+	margin:auto;
+	overflow: auto;
+}
+
+.box{
+	width: 100%;
+	height: auto;
+	background: #270A10;
+	display: block;
+	margin: auto;
+	overflow: auto;
+	
+}
+
+.displayed{
+    object-fit: contain;
+}
+
+.lsideB{
+	width: 435px;
+	height: 630px;
+	float: left;
+	margin: 25px 7px;
+	display: none;
+}
+.lside{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	
+	
+}
+.centreB{
+	width: 435px;
+	height: 630px;
+	float: left;
+	margin: 25px 3px;
+	display: none;
+}
+.centre{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+.rsideB{
+	width: 435px;
+	height: 630px;
+	float: left;
+	margin: 25px 7px;
+    display: none;
+}
+
+.rside{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+.lsideT{
+	width: 100%;
+	text-align: center;
+	color: black;
+	
+}
+.centreT{
+	width: 100%;
+	text-align: center;
+	color: black;
+	
+}
+.rsideT{
+	width: 100%;
+	text-align: center;
+	color: black;
+	
+}
+
+.flip-box{
+	width: 47%;
+	height: 432px;
+	perspective: 1000px;
+	margin:auto;
+	
+}
+.dedT{
+	margin-left: 5px;
+	margon-right: 5px;
+	float: left;
+}
+
+.dedB{
+	margin-right: 5px;
+	float: right;
+	width: 47%;
+	height: 432px;
+	
+}
+.ded{
+	display:block;
+	text-align: center;
+	margin: auto;
+
+}
+
+.fbInner{
+	position: relative;
+	width: 100%;
+	height:100%;
+	
+	transform-style: preserve-3d;
+	transition: transform .8s;
+}
+.flip-box:hover .fbInner{
+	transform: rotateY(180deg)
+}
+
+.fbFront, .fbBack{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+.fbFront{
+	color: aliceblue;
+	
+
+}
+.fbBack{
+    
+	color: aliceblue;
+	transform: rotateY(180deg)
+}
+
+
+.low{
+	
+	color: aliceblue;
+	
+
+}
+.side{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin: auto;
+}
+
+
+.bout{
+	color: #000
+        ;
+    font-size: 17px;
+	margin: 10px;
+	object-fit: contain;
+}
+
+.rotation{
+	transition: transform 2s;
+	
+}
+
+
+.hats{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.formstyle{
+	
+	max-width:400px;
+	margin:50px auto;
+	background:#FFF;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formstyle ul{
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+.formstyle li{
+	display: block;
+	padding: 9px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.formstyle li:last-child{
+	border:none;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.formstyle li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 14px;
+	padding: 2px 5px 2px 5px;
+	color: black;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.formstyle input[type="text"],
+.formstyle input[type="email"],
+.formstyle input[type="number"],
+.formstyle textarea
+{
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	background: #F3F3F3;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formstyle li > span{
+	background: #6d6d6d;
+	display: block;
+	padding: 3px;
+	margin: auto;
+	text-align: center;
+	color: #EDEDED;
+	font-family: Arial;
+	font-size: 11px;
+}
+.formstyle textarea{
+	resize:none;
+}
+.formstyle input[type="submit"],
+.formstyle input[type="button"]{
+	background: #990033;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid #990033;
+	border-radius: 3px;
+	color: #D2E2FF;
+}
+.formstyle input[type="submit"]:hover,
+.formstyle input[type="button"]:hover{
+	background: #C02F5F;
+	color:#fff;
+}
+.smallText{
+	font-size: 12px;
+	margin: 5px;
+	color: black;
+}
+.C{
+	font-size: 13px;
+	text-align: center;
+	font-family:  Arial;
+}
+
+.top{
+	border-top: #000000;
+	border-top-style: solid;
+	border-top-width: thin
+}
+.goose{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+}
+.logo{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    margin-left: auto;
+    
+}
+
+.swan{
+    float:left;
+    width: 40%;
+    margin-top: 2%;
+    font-size: 20px
+}
+.vid{
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+   
+}
